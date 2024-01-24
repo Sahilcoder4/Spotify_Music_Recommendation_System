@@ -1,8 +1,8 @@
 import requests
 import base64
 
-Client_ID = '491049e6ff2d4b4c884c4fd564f83833'
-Client_Secret = 'd49008702f144f2f9fad56dc81ee4904'
+Client_ID = 'My_ID'
+Client_Secret = 'My_passID'
 
 client_credentials = f"{Client_ID}:{Client_Secret}"
 client_credentials_base64 = base64.b64encode(client_credentials.encode())
